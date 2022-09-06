@@ -1,10 +1,12 @@
 html {
   position: relative;
   min-height: 100%;
+
 }
 
 body {
   text-align: center;
+
 }
 
 .main-header {
@@ -79,16 +81,21 @@ header ul:after {}
 /* ここから */
 .function {
   background-color: #D3D3D3;
+  width: 100%;
+  height: 370px;
+  display: table;
+
 }
 
 .function-images {
+  display: table-cell;
   display: flex;
   justify-content: center;
-
+  vertical-align: middle;
 }
 
 .function-image img {
-  margin: 10px;
+  margin: 0 10px;
 }
 
 /* ここまでがfunction部分の実装 */
@@ -96,11 +103,11 @@ header ul:after {}
 footer {
   /* footer部分の実装 */
   width: 100%;
-  height: 100px;
   height: 70px;
   background-color: #283A4B;
   position: absolute;
   bottom: 0;
+
 }
 
 footer p {
